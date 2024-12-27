@@ -9,6 +9,7 @@ const App = () => (
     <div>Framework: react</div>
     <div>Language: TypeScripst</div>
     <div>CSS: Tailwind</div>
+    accediendo a {`${process.env.MF_1_URL}`}
   </div>
 );
 const rootElement = document.getElementById('app');
