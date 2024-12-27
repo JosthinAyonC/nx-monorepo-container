@@ -1,0 +1,17 @@
+# Full list of git hooks:
+# https://git-scm.com/docs/githooks
+
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: npx commitlint --edit
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      run: npm run lint
+post-merge:
+  commands:
+    install-deps-postmerge:
+      run: npm run install
+
