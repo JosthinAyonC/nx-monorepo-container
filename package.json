@@ -2,11 +2,15 @@
   "name": "@sasf-skeleton/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:shell": "nx serve shell"
+  },
   "private": true,
   "dependencies": {
+    "@sasf-skeleton/source": "file:",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
