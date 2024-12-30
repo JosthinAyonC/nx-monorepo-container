@@ -1,0 +1,6 @@
+[submodule "apps/shell"]
+	path = apps/shell
+	url = https://github.com/JosthinAyonC/nx-mfe-shell.git
+[submodule "apps/remote-test"]
+	path = apps/remote-test
+	url = https://github.com/JosthinAyonC/nx-mfe-remotetest.git
